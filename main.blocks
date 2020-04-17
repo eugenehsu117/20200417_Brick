@@ -1,0 +1,35 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="=M0B,L1Et42@aA;GN}h:">Player</variable><variable type="KIND_SpriteKind" id="O1P%t*JEc/xUz{_*#yNf">Projectile</variable><variable type="KIND_SpriteKind" id="`s02fyOZTwqPx,1FOUfQ">Food</variable><variable type="KIND_SpriteKind" id="u6yJ;)H}41u%+FE^9B^%">Enemy</variable><variable id="+lX%KbEA1P_~HRXtYMGW">板子</variable><variable id="/j9{qC@!Lsr9;XWwA/G8">mySprite</variable></variables><block type="pxt-on-start" x="0" y="0"><statement name="HANDLER"><block type="variables_set"><field name="VAR" id="+lX%KbEA1P_~HRXtYMGW">板子</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate"><value name="img"><shadow type="screen_image_picker"><field name="img">img`
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+d d d d d d d d d d d d d d d 6 6 6 6 6 6 6 6 6 6 6 6 6 2 . 
+d 2 2 2 9 2 2 5 2 2 7 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 6 2 . 
+d 2 2 2 9 2 2 5 2 2 7 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 6 2 . 
+d 2 2 2 9 2 2 5 2 2 7 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 6 2 . 
+d d d d d d d d d d d d d d d 6 6 6 6 6 6 6 6 6 6 6 6 6 2 . 
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+`</field></shadow></value><value name="kind"><shadow type="spritekind"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="spritesetpos"><value name="sprite"><block type="variables_get"><field name="VAR" id="+lX%KbEA1P_~HRXtYMGW">板子</field></block></value><value name="x"><shadow type="positionPicker"><field name="index">76</field></shadow></value><value name="y"><shadow type="positionPicker"><field name="index">103</field></shadow></value><next><block type="variables_set"><field name="VAR" id="/j9{qC@!Lsr9;XWwA/G8">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate"><value name="img"><shadow type="screen_image_picker"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . c . . . . . . . . 
+. . . . c a a a c . . . . . . . 
+. . . c c f a b b c . . . . . . 
+. . . b f f b f a a . . . . . . 
+. . . b b a b f f a . . . . . . 
+. . . c b f b b a c . . . . . . 
+. . . . b a f c c . . . . . . . 
+. . . . . b b c . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field></shadow></value><value name="kind"><shadow type="spritekind"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="spritesetpos"><value name="sprite"><block type="variables_get"><field name="VAR" id="/j9{qC@!Lsr9;XWwA/G8">mySprite</field></block></value><value name="x"><shadow type="positionPicker"><field name="index">70</field></shadow></value><value name="y"><shadow type="positionPicker"><field name="index">84</field></shadow></value><next><block type="spritesetvel"><value name="sprite"><block type="variables_get"><field name="VAR" id="/j9{qC@!Lsr9;XWwA/G8">mySprite</field></block></value><value name="vx"><shadow type="spriteSpeedPicker"><field name="speed">50</field></shadow></value><value name="vy"><shadow type="spriteSpeedPicker"><field name="speed">50</field></shadow></value><next><block type="spritesetsetflag"><field name="flag">SpriteFlag.StayInScreen</field><value name="sprite"><block type="variables_get"><field name="VAR" id="/j9{qC@!Lsr9;XWwA/G8">mySprite</field></block></value><value name="on"><shadow type="toggleOnOff"><field name="on">false</field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></statement></block></xml>
